@@ -9,6 +9,7 @@ import { Contact } from "./components/Contact";
 import Footer from "./components/Footer";
 import { Navbar } from "./components/Navbar";
 import { Experience } from "./components/Experience";
+import { Education } from "./components/Education";
 import "./index.css";
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
       <main className="space-y-16 px-4 sm:px-8 max-w-5xl mx-auto">
         <Hero />
         <About />
+        <Education />
         <Skills />
         <Experience />
         <Projects />
